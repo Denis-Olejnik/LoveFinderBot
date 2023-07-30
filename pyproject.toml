@@ -1,12 +1,15 @@
 [tool.poetry]
-name = "lovefinderbot"
-version = "0.1.0"
+name = "LoveFinderBot"
+version = "0.0.1"
 description = ""
 authors = ["Denis Olejnik <denis1riddle@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+aiogram = "3.0.0b8"
+redis = "^4.6.0"
+sqlalchemy = "^2.0.19"
 
 
 [build-system]
